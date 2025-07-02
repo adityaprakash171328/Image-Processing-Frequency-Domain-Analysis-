@@ -72,3 +72,19 @@ texture from another, creating a perceptually
 interesting hybrid that leverages different 
 frequency bands for different types of visual 
 information.
+
+Observations: 
+
+1. The spectrum is centered using fftshift - 
+low frequencies are at the center. 
+
+2. Rotating the image by 90° also rotates its 
+spectrum by 90°. 
+
+3. The frequency mixer combines structural 
+info (low freq) from cat with details (high 
+freq) from dog. 
+
+4. The fused image shows the overall 
+shape/illumination of the cat with fine 
+details from the dog.
